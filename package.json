@@ -1,0 +1,16 @@
+{
+  "name": "product-store",
+  "version": "1.0.0",
+  "description": "Simple product store website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

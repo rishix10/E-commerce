@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 1999,
+    "image": "images/headphones.jpeg",
+    "description": "High-quality wireless headphones with noise cancellation."
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "price": 2999,
+    "image": "images/smartwatch.jpeg",
+    "description": "Track your fitness and notifications with style."
+  },
+  {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "price": 1299,
+    "image": "images/gamingmouse.jpeg",
+    "description": "High precision gaming mouse with customizable DPI."
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "price": 1499,
+    "image": "images/speaker.jpeg",
+    "description": "Portable Bluetooth speaker with deep bass."
+  }
+]

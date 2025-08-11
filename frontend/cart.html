@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Cart - ShopEasy</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Extra styles for cart */
+    #cart-items {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .cart-item {
+      background: white;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      gap: 15px;
+    }
+    .cart-item img {
+      width: 100px;
+      border-radius: 6px;
+    }
+    .cart-item-details {
+      flex-grow: 1;
+    }
+    .cart-item h3 {
+      margin: 0 0 5px 0;
+    }
+    .cart-item p {
+      margin: 2px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Cart</h1>
+    <nav><a href="index.html">🏠 Home</a></nav>
+  </header>
+
+  <main>
+    <div id="cart-items"></div>
+    <div id="cart-total" style="margin-top:20px; font-weight:bold;"></div>
+  </main>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>
